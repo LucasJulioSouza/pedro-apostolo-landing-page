@@ -56,12 +56,12 @@ const AboutSection = () => {
           </div>
           
           <div className="relative">
-            <div className="aspect-video bg-muted rounded-lg shadow-warm flex items-center justify-center">
-              <div className="text-center text-muted-foreground">
-                <Church className="w-16 h-16 mx-auto mb-4 text-primary" />
-                <p className="text-lg font-medium">Foto da Igreja</p>
-                <p className="text-sm">(Será adicionada posteriormente)</p>
-              </div>
+            <div className="aspect-video bg-muted rounded-lg shadow-warm overflow-hidden">
+              <img 
+                src="/lovable-uploads/9ca09723-5f8f-415d-91df-46e3993430bc.png"
+                alt="Igreja São Pedro Apóstolo de Matinhos - Vista aérea da igreja moderna com cruz branca"
+                className="w-full h-full object-cover hover-lift"
+              />
             </div>
           </div>
         </div>
